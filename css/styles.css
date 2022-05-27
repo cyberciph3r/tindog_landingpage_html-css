@@ -1,0 +1,188 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+
+}
+
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  font-size: 3.6rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: Montserrat;
+}
+
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+body {
+  font-family: Montserrat;
+  position: absolute;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: Montserrat;
+}
+
+.nav-link {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.img-main {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:118px;
+
+}
+
+.title-image-container {
+  position: relative;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative  ;
+  z-index: 1;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.clr {
+  color: #ef8172;
+}
+
+.clr:hover {
+  color: #ff4c68;
+}
+
+.midtitle {
+  color: #8f8f8f;
+}
+
+
+.featurebox {
+  text-align: center;
+  padding: 5%;
+}
+
+.clr {
+  margin-bottom: 1rem;
+}
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: #fff;
+
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+h2{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align:  center;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 40px 50px;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+
+
+.padcrd {
+  padding: 3% 2%;
+}
+
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .img-main {
+    position: static;
+    transform: rotate(0);
+
+  }
+
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cat-font{
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+#footer{
+  margin: 7% 15%;
+  text-align: center;
+}
+
+.padfoot{
+  margin: 20px 10px;
+}
+
+.btnpad{
+  margin: 5% 3% 5% 0;
+}
