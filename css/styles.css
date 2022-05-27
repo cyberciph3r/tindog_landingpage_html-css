@@ -1,7 +1,6 @@
 #title {
   background-color: #ff4c68;
   color: white;
-
 }
 
 h1 {
@@ -15,7 +14,6 @@ p {
   color: #8f8f8f;
   font-family: Montserrat;
 }
-
 
 .container-fluid {
   padding: 3% 15%;
@@ -54,8 +52,7 @@ body {
   width: 50%;
   transform: rotate(25deg);
   position: absolute;
-  right:118px;
-
+  right: 118px;
 }
 
 .title-image-container {
@@ -65,7 +62,7 @@ body {
 #features {
   padding: 7% 15%;
   background-color: #fff;
-  position: relative  ;
+  position: relative;
   z-index: 1;
 }
 
@@ -87,7 +84,6 @@ h3 {
   color: #8f8f8f;
 }
 
-
 .featurebox {
   text-align: center;
   padding: 5%;
@@ -97,44 +93,41 @@ h3 {
   margin-bottom: 1rem;
 }
 
-#testimonials{
-
+#testimonials {
   text-align: center;
   background-color: #ef8172;
   color: #fff;
   font-family: Montserrat;
   font-weight: 700;
   color: #fff;
-
 }
 
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
 
-h2{
+h2 {
   font-family: Montserrat;
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-#press{
+#press {
   background-color: #ef8172;
   padding-bottom: 3%;
-  text-align:  center;
+  text-align: center;
 }
 
-.press-image{
+.press-image {
   width: 15%;
   margin: 20px 40px 50px;
 }
 
-.testimonial-image{
+.testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
-
 }
 
 #pricing {
@@ -142,47 +135,53 @@ h2{
   text-align: center;
 }
 
-
+.slowit {
+  transition: 0.5s;
+}
 
 .padcrd {
   padding: 3% 2%;
 }
 
-
 @media (max-width:1028px) {
-  #title{
+  #title {
     text-align: center;
   }
+
   .img-main {
     position: static;
     transform: rotate(0);
-
   }
-
 }
 
-#cta{
+#cta {
   background-color: #ff4c68;
   color: white;
   text-align: center;
   padding: 7% 15%;
 }
-.cat-font{
+
+.cat-font {
   font-family: "Montserrat-Black", sans-serif;
   font-weight: 900;
   line-height: 1.5;
   font-size: 3.5rem;
 }
 
-#footer{
+#footer {
   margin: 7% 15%;
   text-align: center;
 }
 
-.padfoot{
+.padfoot {
   margin: 20px 10px;
 }
 
-.btnpad{
+#footer i:hover {
+  transform: scale(1.5)translateY(-5px);
+  transition: 0.5s;
+}
+
+.btnpad {
   margin: 5% 3% 5% 0;
 }
